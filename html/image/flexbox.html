@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>flexbox-practice</title>
+</head>
+  /* flexbox is similar to the grid in many aspects
+  with extra features 
+  similarity:we can apply both justify content and align-items property to both flexbox & grid*/
+<body>
+    <div style=" display:flex;
+   border:2px;
+   border-color:black;
+   border-style:solid;
+  /*
+  align-items:center;*/
+  flex-direction:ROW;
+  
+   ">
+        <div style="background-color:lightpink; width:100px;">
+            100px<p>ram</p>
+        </div>
+        <div style="background-color:lightblue; flex:1;">
+            flex:1
+        </div>
+        <div style="background-color:lightpink; flex:2;">
+            flex:2
+        </div>
+    </div>
+
+    <div style=" display:flex;
+       border:2px;
+       border-color:black;
+       border-style:solid;
+       height:100px;
+      /* justify-content:center; space-between,start,end,space-evenly*/
+      flex-direction:ROW;
+      margin-top:20px;
+      align-items:center; /*start,end,center*/
+      
+       ">
+        <div style="background-color:lightpink; width:100px;
+         ">
+            100px
+        </div>
+        <div style="background-color:lightblue; flex:1;
+          ">
+          flex:1
+        </div>
+        <div style="background-color:lightpink; flex:2;
+           ">
+          flex:2
+        </div>
+    </div>
+
+    <div style=" display:flex;
+    border:2px;
+    border-color:black;
+    border-style:solid;
+    height:100px;
+   justify-content:center;
+   flex-direction:ROW;
+   margin-top:20px;
+   /*justify-content: space-evenly;*/
+   
+    ">
+     <div style="background-color:lightpink; width:100px;
+      ">
+         div1
+     </div>
+     <div style="background-color:lightblue; width:100px;
+       ">
+         div2
+     </div>
+     <div style="background-color:lightpink; width:100px;
+        ">
+         div2
+     </div>
+ </div>
+ <div style=" display:grid;
+ border:2px;
+ border-color:black;
+ border-style:solid;
+ height:100px;
+grid-template-columns:100px 3fr 1fr;
+margin-top:20px;
+align-items:center;
+/*justify-content: space-evenly;*/
+
+ ">
+  <div style="background-color:lightpink;
+   ">
+      div1
+  </div>
+  <div style="background-color:lightblue;
+    ">
+      3fr
+  </div>
+  <div style="background-color:lightpink;
+     ">
+      1fr
+  </div>
+</div>
+
+<div style=" display:grid;
+ border:2px;
+ border-color:black;
+ border-style:solid;
+ height:600px;
+ width:500px;
+grid-template-columns:1fr 1fr 1fr;
+margin-top:20px;
+ row-gap:30px;column-gap:20px;
+/*justify-content: space-evenly;*/
+
+ ">
+  <div style="background-color:lightpink;
+   ">
+      div1
+  </div>
+  <div style="background-color:lightblue;
+    ">
+      3fr
+  </div>
+  <div style="background-color:lightpink;
+     ">
+      1fr
+  </div>
+  <div style="background-color:lightpink;
+  ">
+     div1
+ </div>
+ <div style="background-color:lightblue;
+   ">
+     3fr
+ </div>
+ <div style="background-color:lightpink;
+    ">
+     1fr
+ </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<doctype html>
+    <html>
+
+    <head>
+        <title>nested-flexbox</title>
+    </head>
+
+    <body>
+        <div style=" display:flex;height:100px; margin-bottom:20px;">
+            <div style="background-color:lightpink;
+           width:100px;align-items:center;
+           justify-content:center;display:flex;">
+                <div style="display:flex;background-color:black;color:white;
+              ">item1</div>
+            </div>
+            <div style="background-color:lightblue;
+           width:200px;">
+            </div>
+        </div>
+        <div style="display:flex;">
+            <div style="background-color:lightpink;
+           width:100px;height:100px;">
+
+            </div>
+            <div style="background-color:lightblue;
+           width:200px;height:100px; 
+          ">
+                <div style="color:black;">
+                    row1
+                </div>
+                <div style="display:flex;
+             justify-content:space-between;
+             flex-direction:row;">
+                    <div style="background-color:black;color:white;">
+                        row2
+                    </div>
+                    <div style="background-color:black;color:white;">
+                        row2
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>

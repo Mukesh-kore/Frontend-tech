@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin:0; padding-top:100px;
+height:1000px;padding-left:100px;">
+    <div style="background-color:black;
+    color:rgb(199, 174, 174);height:100px;
+    
+    position:fixed;
+    left:0;
+    top:0;
+     right:0;
+    z-index: 101;
+    "><div style="position:relative;">
+       header
+       <div style="position:absolute;top:50px;left:0px;background-color:red;z-index: 5;">
+           position-relative
+       </div>
+  
+   </div>
+    </div>
+      
+    <div style="background-color:green;
+    width:100px;
+    position:fixed;
+    top:100px;
+    bottom:0px;
+    left:0px;
+    padding-right:0px;">
+        sidebar
+    </div>
+    <div style="z-index:105;">
+        <div style="background-color:lightpink;
+        width:200px;height:200px;">
+
+        </div>
+        <div style="background-color:lightblue;
+        width:200px;height:200px;z-index:105;position:relative;">
+          <div style="position:absolute;;bottom:100px;right:0px;background-color:red;">
+            position-relative
+        </div>
+        </div>
+    </div>
+    <div style="position:absolute;top:100px;right:0px;background-color:red;">
+        position-absolute
+    </div>
+   
+</body>
+</html>

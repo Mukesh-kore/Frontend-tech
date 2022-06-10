@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <!-- this is the special case -->
+<head>
+    <title>position-fixed</title>
+    <style>
+        .overly {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal{
+            padding-left:15px; width:300px; padding-top:15px; padding-bottom:15px; background-color:white;
+        border-radius:4px;
+       
+        }
+        .modal-content{
+        font-family:arial;
+        margin-top:0px;
+        margin-bottom:12px;
+        
+        }
+        .title{
+            font-family:arial;
+            font-weight:bold;font-size:18px;
+            margin-top:0px;
+        margin-bottom:12px;
+        }
+    </style>
+</head>
+
+<body style="height:3000px;">
+    <div style="position:fixed; 
+        top:0px;
+        bottom:0;
+        right:0;
+        background-color:green;
+        width:100px;">
+        right sidebar
+    </div>
+    <!----<div style="height:200px;
+        width:300px;background-color:lightpink;"> 
+          <p style="background-color:black;
+            color:white;
+            position:fixed;
+          
+            bottom:20px;
+            Right:20px;">bottom-right</p>
+            </div> ------->
+    <div class="overly">
+        <div class="modal">
+        <p class="title">Modal Title</p>
+        <p class="modal-content">This is the modal</p>
+        <button>
+            close
+        </button>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/*Header*/
+header{
+    height:60px;
+    width:100%;
+    /* border:2px groove red; */
+    background-color: #d77440;
+}
+
+#icon{
+    float:left;
+    font-size:30px;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#social{
+    float:right;
+}
+
+.slogo{
+    height:50px;
+    width:50px
+}
+
+/*Search*/
+#content{
+    display:inline-block;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#filterDiv{
+    height:500px;
+    width:20%;
+    border: 2px solid green;
+    float:left;
+}
+#contentDiv{
+    
+    width:77%;
+    margin-left: 2%;
+    border: 2px solid red;
+    float:left;
+}
+
+/*Footer*/
+footer{
+    margin-top:2%;
+    height:120px;
+    width:100%;
+   background-color: #f8ab81;;
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    text-align:center;
+    border-right: 2px solid black;
+}
+
+.noborder{
+    border:none
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text box</title>
+    <style>
+       .search{
+           width:100px;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:5px;
+           border-radius:5px;
+           font-family:arial;
+           border-style:solid;
+       }
+       
+        .google{
+            display:block;
+            margin-top:10px;
+            width:250px;
+            padding-top:6px;
+            padding-bottom:6px;
+            padding-left:10px;
+            border-radius:20px;
+            font-family:arial;
+            border-style:solid;
+            border-color:white;
+            margin-bottom:none;
+            
+         /*   box-shadow:10px 10px 1px rgba(0,0,0,1);*/
+           box-shadow: 2px 5px 19px rgba(0,0,0,0.9);
+        }
+        .email{
+            margin-top:10px;
+            width:200px;
+            border-color:grey;
+            border-style:solid;
+            margin-top:7px;
+            border-radius:5px;
+            border-width:2px;
+
+        }
+        .id{
+            margin-bottom:0px;
+        }
+        .join{
+            width:400px;
+        }
+        .agree{
+            background-color:rgb(54, 124, 199);
+            border:none;
+            padding-top:10px;
+            padding-bottom:10px;
+            width:350px;
+            border-radius:20px;
+            display:block;
+            margin-bottom:20px;
+
+        }  
+        .password{
+            border-style:solid;
+            border-color:white;
+            box-shadow: 2px 5px 19px rgba(0,0,0,0.9);
+            padding-top:8px;
+            padding-bottom:8px;
+            border-radius:20px;
+            padding-left:10px;
+            margin-top:20px;
+            color:red;
+            background-color:rgb(64, 0, 255); 
+        } 
+        ::placeholder{
+            color:grey;
+        } 
+        .cat{
+            width: 50px;
+            height:50px;
+            border-radius:25px;
+            object-fit:cover;
+            vertical-align:middle;
+        }
+        .what{
+            vertical-align:middle;
+            
+           
+            margin-left:8px;
+            font-size:20px;
+            border:none;
+        }
+        .tweet{
+            padding-top:5px;
+            padding-bottom:5px;
+            width:65px;
+            border-radius:20px;
+            background-color:rgb(76, 176, 242);
+            border:none;
+            color:white;
+            font-family:arial;
+            font-size:16px;
+            margin-left:0px;
+            
+        }
+        .tweeter{
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 450px;
+  border-radius: 6px;
+            
+        }
+       
+    </style>
+     
+</head>
+<body>
+    <input class="search" type="text" placeholder="search">
+    <input class="google" type="text" placeholder="Search Google of type a url">
+    
+    <p class="id">Email</p>
+    <input class="email" type="text">
+    <p class="join">
+        by clicking agree &#38; join , you agree to the privacy policy
+    </p>
+    <div class="testy">
+        <input class="password" type="text" placeholder="Enter your password">  
+       </div> 
+    <button class="agree"> Agree & Join</button>
+     <div class="tweeter">
+        <img  class="cat" src="cat.jpg">
+        <input  class="what"type="text" placeholder="whats happening  &#63;">
+            <button class="tweet">
+                Tweet
+            </button>
+     </div>
+   
+   
+
+</body>
+</html>

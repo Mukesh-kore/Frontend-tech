@@ -1,0 +1,45 @@
+.New{
+    text-align:center;
+    color:red;
+    font-size:12px;
+    font-family:arial;
+    margin-bottom:0px
+}
+.pro{
+    font-family:arial;
+    font-weight:bold;
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:0px;
+    font-size:20px
+}
+.for{
+    font-family:arial;
+    font-weight:bold;
+    font-size:24px;
+    text-align:center;
+    margin-top:2px;
+    margin-bottom:0px;
+}
+.from{
+    font-family:arial;
+    text-align:center;
+    margin-top:5px;
+    font-size:10px;
+    font-weight:bold;
+
+}
+.button-buy{
+  
+    margin-right:auto;
+    color:white;
+    background-color:rgb(0, 115, 255);
+    border:none;
+    border-radius:16px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:9px;
+    padding-right:9px;
+    
+
+}

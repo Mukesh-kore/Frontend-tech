@@ -1,0 +1,195 @@
+.subscribe-button{
+    background-color:rgb(209, 27, 27);
+    border:none;
+ /*  height:36;
+    width: 105px;*/
+   padding-left:18px;
+    padding-right:18px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius:2px;
+    color:white;
+    cursor:pointer;
+    transition:background-color 0.15s;
+
+    
+}
+.subscribe-button:hover{
+     opacity:0.8;
+}
+.subscribe-button:active{
+    opacity:0.5;
+}
+.JOIN-button{
+    background-color:white;
+    color:rgb(0, 106, 255);
+    border-color:rgb(0, 106, 255);
+    border-width:1px;
+    height:36px;
+    margin-left:8px;
+    width:60;
+    cursor:pointer;
+    border-radius:2px;
+    transition: background-color,color 0.15s,
+    
+}
+.JOIN-button:hover{
+    background-color:rgb(0, 106, 255);
+    color:white;
+}
+.JOIN-button:active{
+    opacity: 0.7;
+}
+.Tweet-button{
+    background-color:rgb(0, 166, 255);
+    color:white;
+    width:65px;
+    height:36px;
+    border:none;
+    border-radius:18px;
+    font-weight:solid;
+    font-size:15px;
+    margin-left:8px;
+    margin-right:8px;
+    transition:background-color o.15s,color 0.15s;
+    box-shadow:3px 3px 14px rgb(26, 152, 219);
+   
+}
+/*.Tweet-button:hover{
+    background-color:white;
+    color:rgb(0, 166, 255);
+}*/
+.Uber-button{
+  /*  background-color:black;
+    color:white;
+    width:120px;
+    border-color:rgb(244, 244, 244);
+    border-width:8px;
+    height:45px;
+    font-size:11px;
+    font-style:verdana;
+    border:none;*/
+     background-color: black;
+     color: white;
+      border: none;
+      height: 40px;
+     width: 110px;
+      cursor: pointer;
+      margin-right:8px;
+      transition:o.15s; 
+
+}
+.Uber-button:hover{
+    opacity: 0.7;
+}
+.amazon-butoon{
+    background-color:rgb(255, 216, 20);
+    color:black;
+    width:145px;
+    height:26px;
+    border:none;
+    border-radius:13px;
+    font-size:10px;
+    margin-top:10px;   
+}
+.github{
+    background-color:#30aa4f;
+    color:white;
+    border:none;
+    width:70px;
+    height:34px;
+    border-radius:4px;
+    cursor:pointer;
+   /* transition:box-shadow 0.15s;*/
+    transition-property:box-shadow ;
+    transition-delay:0.15s;
+    
+
+    
+}
+.github:hover{
+    box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.ra{
+    width:70px;
+} 
+.bootstrap-button{
+    height:33px;
+    width:110px;
+    background-color:rgb(121, 119, 182);
+    border:none;
+    color:white;
+    border-radius:4px;
+    margin-left:8px;
+    cursor: pointer;
+    transition:  0.15s;
+}  
+.bootstrap-button:hover{
+    opacity: 0.7;
+
+}
+
+.download-button{
+    color:rgb(121, 119, 182);
+    height:33px;
+    width:108px;
+    background-color:white;
+    border-color:rgb(121, 119, 182);
+    cursor: pointer;
+    transition:background-color 0.15s,
+    color 0.15s;
+}
+.download-button:hover{
+     background-color: rgb(121, 119, 182);
+     color:white;
+}
+.back-to-amazon{
+    color:red;
+    margin-left:8px;
+
+}
+.nike{
+    margin-left:8px;
+    font-size: large;
+    font-weight: bold;
+}
+.price{
+    margin-left:8px;
+    color:#30aa4f;
+    font-weight: bold;
+}
+.Add-to-Cart{
+    background-color: rgb(249, 217, 76);
+    border:none;
+    width:110px;
+    height:28px;
+    border-radius: 14px;
+    font-size: x-small;
+    font-weight: bold;
+    cursor:pointer;
+
+}
+.Add-to-Cart:hover{
+    background-color: rgb(247, 202, 0);
+}
+.Add-to-Cart:active{
+    opacity:0.5;
+}
+.Buy-now{
+    background-color:  rgb(255, 164, 28);
+    border:none;
+    width:110px;
+    height:28px;
+    border-radius: 14px;
+    font-size: x-small;
+    font-weight: bold;
+    margin-left:8px;
+    cursor:pointer;
+}
+.Buy-now:hover{
+    background-color: rgb(250, 137, 0);
+}
+.Buy-now:active{
+    opacity:0.5;
+}
