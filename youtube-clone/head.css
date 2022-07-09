@@ -159,7 +159,7 @@
     padding-right:4px;
     font-family:roboto,arial;
     opacity:0;
-    pointer-events: none;
+    pointer-events: none;  /* it is used to make changes when user click on the content not the entire width of p tag(extra area of p tag)*/
     transition:opacity o.15s;
     border-radius:2px;
     font-size:12px;
