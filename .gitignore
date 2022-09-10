@@ -3,3 +3,6 @@ practice
 Bootstrap
 node_modules
 ignore
+package.json
+package-lock.json
+.vscode/
