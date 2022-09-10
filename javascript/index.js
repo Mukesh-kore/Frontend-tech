@@ -26,8 +26,16 @@ redclared means accidential redclarartion of
 //     return 0;    
 // }
 // getname();
-let r=56.7
-{
-     r=89.7;
-}
+let r;
+// {
+//   let r=89.7;
+// console.log(r);
+// }
+// console.log(r);
+r=2;
+console.log(r);
+r="krishna";
+console.log(r);
+
+r=true;
 console.log(r);
