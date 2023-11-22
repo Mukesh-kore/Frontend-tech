@@ -1,0 +1,70 @@
+body {
+  color: white;
+}
+
+.align {
+  text-align: right;
+}
+span,
+legend,p {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 3px;
+}
+fieldset {
+  border: 3px solid blue;
+  border-radius: 13px;
+  background-color: black;
+  width: 50%;
+}
+td {
+  padding-bottom: 12px;
+}
+input {
+ 
+  background-color: black;
+  /* width:0px;
+  min-width:100% ; */
+  color: white;
+}
+.Outer_div {
+  
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 3px solid blue;
+  border-radius: 13px;
+  width: 90%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Outer_div >input{
+  width:auto;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left:20px;
+}
+.parent {
+  display: flex;
+  /* grid-template-rows: 300px 150px;s */
+  flex-direction: column;
+  background-color: black;
+  width: 50%;
+  padding-top: 20px;
+  border-radius: 5px;
+  
+}
+.p {
+  margin: 0px;
+  position: absolute;
+  top: -12px;
+  left: 20px;
+}
+

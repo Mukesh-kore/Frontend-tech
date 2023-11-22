@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/HTML_PS6.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Internet Usage Survey</h1>
+      <p>
+        This is being conducted to help identify the internet usage of patterns
+        of ours customers.
+      </p>
+      <p>
+        please take a few moments to complete abd submit this short form.Thank
+        you for your cooperation
+      </p>
+
+      <table style="margin-top: 20px"cellspacing="10px">
+        <tr>
+          <td>
+            <p>what type of internet connection do you have ?</p>
+            <p>(select One)</p>
+          </td>
+          <td>
+            <select name="selection" id="select" size="4">
+              <option value="option1">Dial-Up</option>
+              <option value="option1">DSL</option>
+              <option value="option1">High Sped Cable</option>
+              <option value="option1">Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><p>What type of Computer do you use most at home</p></td>
+          <td>
+            <input id="desktop" type="radio" />
+            <label for="desktop">Desktop</label>
+            <input id="Laptop" type="radio" />
+
+            <label for="Laptop">Laptop</label>
+          </td>
+        </tr>
+        <tr>
+          <td>How would you describe your min reason for using the internet</td>
+          <td>
+            <input id="1" type="radio" />
+            <label for="1">To do work-related activities </label>
+            <br />
+
+            <input id="1" type="radio" />
+            <label for="1">To do work-related activities </label>
+            <br />
+
+            <input id="1" type="radio" />
+            <label for="1">To do work-related activities </label>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <fieldset style="width: 400px">
+              <legend>Types of sites visited</legend>
+
+              <p>What types of web sites do you access most often?</p>
+              <p>Check all that apply</p>
+
+              <input id="1a" type="checkbox" />
+              <label for="1a">Self Improvement</label>
+              <br />
+
+              <input id="2b" type="checkbox" />
+              <label for="2b">Entertainment</label>
+              <br />
+
+              <input id="3c" type="checkbox" />
+              <label for="3c">News and Sports</label>
+              <br />
+
+              <input id="5c" type="checkbox" />
+              <label for="5c">References</label>
+              <br />
+              <input id="56c" type="checkbox" />
+              <label for="6c">Email</label>
+            </fieldset>
+          </td>
+
+          <td>
+            <fieldset style="width: 300px">
+              <legend>Time spent using Internet</legend>
+              <p>During an average week how long do you spend online</p>
+              <input id="t2a" type="checkbox" />
+              <label for="t2a">0-3 Hours</label><br />
+              <input type="checkbox" name="" id="t2b" />
+              <label>4-6 Hours</label><br />
+              <input type="checkbox" name="" id="t2c" />
+              <label>7-10 Hours</label><br />
+              <input type="checkbox" name="" id="t2d" />
+              <label>11-14 Hours</label><br />
+              <input type="checkbox" name="" id="t2e" />
+              <label>11-15 Hours</label><br />
+            </fieldset>
+          </td>
+        </tr>
+      </table>
+      <!-- <div class="parent">
+      <div style="border: 2px solid grey; width: 30%">
+        
+      </div>
+      <div style="border:2px solid grey">
+        
+      </div>
+    </div> -->
+      <p>
+        please comment on your opinions concerning Internet privacy and safety
+      </p>
+      <textarea name="" id=""></textarea>
+      <table>
+        <tr>
+          <td>
+            First Name:
+            <input type="text" style="width: 300px" />
+          </td>
+          <td>
+            Last Name:
+            <input type="text" style="width: 300px" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            age
+            <input type="text" style="width: 100px" />
+          </td>
+          <td>
+            zip Code
+            <input type="text" style="width: 100px" />
+          </td>
+        </tr>
+      </table>
+      <div style="text-align: center; margin-top: 20px">
+        <input type="submit" />
+        <input type="reset" />
+      </div>
+    </form>
+  </body>
+</html>

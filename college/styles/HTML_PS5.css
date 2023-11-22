@@ -1,0 +1,29 @@
+tr, td{
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+    border: solid black;
+    background-color: palevioletred;
+}
+
+#empcode{
+    width: 69px;
+}
+#d,
+#m{
+    width: 40px;
+}
+
+#y{
+    width: 60px;
+}
+
+u{
+    color: blue;
+}
+
+textarea{
+    overflow-y: scroll;
+    resize: none;
+}

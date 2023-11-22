@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../../js/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          let str = $("#str").val();
+          let subStr = $("#subStr").val();
+          let resStr = $("#reStr").val();
+          let op = $("input[name=op]:checked").val();
+          switch (op) {
+            case "uprCase":
+              ans = str.toUpperCase();
+              $("#myDiv").html(ans);
+              break;
+            case "lwrCase":
+              ans = str.toLowerCase();
+              $("#myDiv").html(ans);
+              break;
+            case "search":
+              ans = str.search(subStr);
+              $("#myDiv").html(ans);
+              break;
+            case "concat":
+              $("#myDiv").html($("#subStr").val().concat(str));
+              break;
+            case "replace":
+              let pattern = /subStr/gi;
+              ans = str.replace(pattern, resStr);
+              $("#myDiv").html(ans);
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    Enter String: <input type="text" id="str" /><br />
+    Enter SubString: <input type="text" id="subStr" /><br />
+    Enter Replace with String: <input type="text" id="reStr" /><br />
+    <input type="radio" name="op" value="search" />Search substring in main
+    string &nbsp;<input name="op" type="radio" value="uprCase" />To Upper
+    Case&nbsp;<input type="radio" name="op" value="lwrCase" />To Lowercase
+    &nbsp;<input type="radio" name="op" value="concat" />Concatenate&nbsp;<input
+      type="radio"
+      name="op"
+      value="replace"
+    />Replace <br />
+    <button>submit Query</button>
+    <div id="myDiv"></div>
+  </body>
+</html>

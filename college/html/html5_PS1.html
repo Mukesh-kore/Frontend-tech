@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../styles/html5_PS1.css">
+</head>
+<body>
+    <div>
+    <h2>Appointment Schedular</h2>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name</label>
+        <input type="text"id="name"><br>
+        <label for="tele">Telephone Number</label>
+        <input type="text"id="tele"><br>
+        <label for="email"id="email">E-mail address</label>
+        <input type="mail"id="mail"><br>
+        <label for="">Date of birth</label>
+        <input type="date"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Appointment Request</legend>
+        <label for="">What is the reason for your visit</label>
+        
+        <input list="mYList">
+        <datalist id="mYList">
+            <option value="Dental problem"></option>
+            <option value="Blood Cancer"></option>
+            <option value="Sugar"></option>
+            <option value="blood pressure"></option>
+        </datalist><br>
+        <label for="">Current pain level</label>
+        <input type="range"><br>
+        <label for="">Preferred Date</label>
+        <input type="date"><br>
+        <label for="">Preferred Time</label>
+        <input type="number">
+    </fieldset>
+    </div>
+    <input class="submit"type="submit">
+</body>
+</html>

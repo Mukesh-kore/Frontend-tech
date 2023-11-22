@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../styles/HTML_PS5.css">
+    <title>PS-5</title>
+</head>
+
+<body>
+    <table border="2">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="nm" id="nm"></td>
+        </tr>
+        <tr>
+            <td>Employee Code</td>
+            <td><input type="text" name="empcode" id="empcode"></td>
+        </tr>
+        <tr>
+            <td>Department</td>
+            <td>
+                <input type="radio" name="dept" id="admin" value="admin"><label for="admin">ADMIN</label><br>
+                <input type="radio" name="dept" id="hr" value="hr"><label for="hr">HR</label><br>
+                <input type="radio" name="dept" id="technical" value="technical"><label
+                    for="technical">TECHNICAL</label><br>
+                <input type="radio" name="dept" id="accounts" value="accounts"><label for="accounts">ACCOUNTS</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Date of Joining</td>
+            <td>
+                <input type="number" id="d" name="date" min="1" max="31"> /
+                <input type="number" id="m" name="month" min="1" max="12"> /
+                <input type="number" id="y" name="year" min="1900" max="9999"><br>
+                &nbsp;&nbsp;&nbsp;dd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mm&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;yyyy
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>
+                <textarea id="address" name="address" rows="3" cols="50"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Tranining Programmes Attended</td>
+            <td>
+                <input type="checkbox" name="prog" id="html" value="html"><label for="html">HTML/DHTML</label><br>
+                <input type="checkbox" name="prog" id="java" value="java"><label for="java">JAVA</label><br>
+                <input type="checkbox" name="prog" id="c/s" value="c/s"><label for="c/s">CLIENT/SERVER</label><br>
+                <input type="checkbox" name="prog" id=".net" value=".net"><label for=".net">.NET</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Tranining Programmes need to attend</td>
+            <td>
+                <select name="prog" id="to_attend" size="2">
+                    <option value="js">JAVASCRIPT</option>
+                    <option value="jstruts">JSTRUTS</option>
+                    <option value="java">JAVA</option>
+                    <option value="cpp">C++</option>
+                    <option value="csharp">C#</option>
+                    <option value=".net">.NET</option>
+                    <option value="html">HTML/DHTML</option>
+                    <option value="c/s">CLIENT/SERVER</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Send the information at</td>
+            <td><u>empinfo@patni.com</u></td>
+        </tr>
+    </table>
+</body>
+
+</html>

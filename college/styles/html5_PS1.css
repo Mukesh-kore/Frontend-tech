@@ -1,0 +1,17 @@
+label{
+    display: block;
+}
+input{
+    margin-bottom:10px;
+}
+body{
+    border:2px solid grey;
+    padding: 7px;
+}
+.submit{
+    border-radius:0px;
+    margin-top:10px;
+}
+h2{
+    margin-top:0px;
+}

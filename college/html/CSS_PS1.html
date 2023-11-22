@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/CSS_PS1.css">
+    <script>
+      function show(id){
+     /*   if(id.checked){
+        document.getElementById("pass").type="text";
+        
+       }
+       else{
+        document.getElementById("pass").type="password";
+       
+       } */
+       (id.checked)? document.getElementById("pass").type="text": document.getElementById("pass").type="password";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="parent">  
+      <div class="Outer_div">
+        <p class="p">Name and address</p>
+        <table>
+      <tr>
+        <td class="align">SSN:</td>
+        <td><input type="text" /> <span>Fill in name and address</span></td>
+        <br>
+      </tr>
+      <tr>
+        <td class="align">Full Name:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td class="align">Street and number:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td class="align">Postal code:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td class="align">City:</td>
+        <td><input type="text" /></td>
+      </tr>
+   
+    </table>
+  </div>   
+<div  class="Outer_div" style="width:70%" class="second">
+  <p class="p" class="">UserName and password</p>
+<table cellspacing="16px">
+   
+        <tr>
+            <td>UserName:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password"id="pass"></td>
+        </tr>
+        <tr >
+          <td></td> 
+          <td >
+           <input type="checkbox" id="pwd" onclick="show(this)">Show password
+          </td>
+            
+        </tr>
+      
+</table>
+</div>
+<div><button >Register</button></div>
+</div>
+
+  </body>
+</html>

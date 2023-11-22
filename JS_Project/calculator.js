@@ -1,12 +1,12 @@
 const e_space = document.querySelector("input");
-const buttons = document.querySelectorAll(".btn");
+const buttons = document.getElementsByClassName("btn")
 let string = "";
 // console.log(buttons);//object
 // console.log(Array.from(buttons));//array
-// // for(let i of buttons){
+// // // for(let i of buttons){
 
 // }-->can iterate over the button object
-Array.from(buttons).forEach((button) => {
+Array.from(buttons).map((button) => {
     button.addEventListener("click", (e) => {
         console.log(e.target.innerHTML);
         // console.log(typeof(e));

@@ -1,0 +1,44 @@
+<html>
+   <head>
+ 
+   </head>
+   <body>
+         <div style="width: fit-content;height: fit-content;">
+            
+            <h2 style="border: 2px dashed black;border-left: 0;border-right: 0;">Calculate Compound Interest</h2>
+            <p>Principal: <span style="margin-left: 30%;">------</span> <span style="margin-left: 10%;" id="prin"></span></p>
+            <p>Rate of Interest: <span style="margin-left: 16%;">------</span> <span style="margin-left: 10%;" id="roi"></span></p>
+            <p>Period: <span style="margin-left: 35%;">------</span> <span style="margin-left: 10%;" id="noy"></span></p>
+            <p>Comp Interest: <span style="margin-left: 18%;">------</span> <span style="margin-left: 10%;" id="compInt"></span></p>
+            <button onclick="window.location.reload()">reload</button>
+         </div>
+         <script id="myscript">
+            let prin=prompt("Enter the principal amount: ")        
+            let roi=prompt("Enter the rate of interest: ")        
+            let noy=prompt("Enter the number of years: ") 
+            let flag1=validate(prin)
+            let flag2=validate(roi)
+            let flag3=validate(noy)
+
+            if(flag1 && flag2 && flag3){
+                prin=parseFloat(prin)
+                roi=parseInt(roi)
+                noy=parseInt(noy)
+
+                let compInt=(prin*(1+roi/100)**noy)-prin
+                alert(compInt)
+                document.getElementById("prin").innerHTML=prin+"₹"
+                document.getElementById("roi").innerHTML=roi+"%"
+                document.getElementById("noy").innerHTML=noy+"yr"
+                document.getElementById("compInt").innerHTML=compInt
+            }
+            
+            function validate(par) {
+                if(isNaN(par)){
+                    return false
+                }
+                return true
+            }
+       </script>
+   </body>
+</html>

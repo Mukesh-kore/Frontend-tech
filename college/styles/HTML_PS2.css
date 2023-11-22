@@ -1,0 +1,18 @@
+body{
+  
+}
+.child1{
+    display: grid;
+    grid-template-columns: 140px 50%;
+    margin-bottom: 10px;
+    justify-items: end;
+}
+input{
+   width: 50%;
+}
+.parent1{
+    /* padding: 10px 0px 10px 10px;
+    pa */
+    padding-top:10px;
+    padding-left:10px;
+}

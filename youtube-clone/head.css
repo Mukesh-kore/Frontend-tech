@@ -56,7 +56,7 @@
     border-radius:20px;
     background-color:rgb(247, 247, 247);
     display:flex;
-    justify-content:center;
+    /* justify-content:center; */
     align-items:center;
 }
 .search-button{

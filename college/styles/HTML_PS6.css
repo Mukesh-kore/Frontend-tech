@@ -1,0 +1,30 @@
+body {
+  border: 1px solid rgb(0, 153, 255);
+  padding: 30px;
+  padding-top: 10px;
+}
+p {
+  margin: 0px;
+}
+#que {
+  margin-top: 20px;
+  float: left;
+  margin-right: 10%;
+}
+select {
+  float: left;
+}
+.parent {
+  display: flex;
+  column-gap: 20px;
+}
+td {
+  padding-right: 20px;
+}
+textarea {
+  display: block;
+  width: 55%;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

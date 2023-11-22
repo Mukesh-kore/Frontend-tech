@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>From Demo</title>
+    <style>
+      #Heading {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+       
+      }
+      #parent_div {
+        display: grid;
+        justify-content: center;
+       
+      }
+      #main_div {
+        height: 370px;
+        width: 350px;
+       border-radius:10px;
+        text-align: center;
+        padding: 30px;
+        padding-top: 0px;
+        box-shadow:2px 1px 5px rgb(128, 124, 124) ;
+      }
+
+      /* input {
+        width: 300px;
+      } */
+      .combo {
+        /* display: grid;
+        grid-template-columns: 0.7fr 1fr;
+        justify-content: space-around; */
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 13px;
+      }
+      .combo > input {
+        height: 20px;
+        width: 240px;
+      }
+      .inner_div {
+        float: left;
+      }
+      .c {
+        float: left;
+        margin-right: 45px;
+      }
+      input,
+      label {
+        /* font-weight:bold ; */
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        padding: 5px;
+      }
+      input{
+        border: 2px solid rgb(128, 125, 125);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        justify-items: start;
+        column-gap: 10%;
+        margin-bottom: 10
+        px;
+      }
+      .grid > input {
+        width: 200px;
+      }
+      .btn {
+        padding: 8px 20px;
+        font-size: larger;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 5px;
+        margin-top:30px ;
+      }
+      .btn:hover {
+        /* background-color: rgb(16, 145, 35); */
+        background-color: rgb(91, 89, 89);
+        color: rgb(234, 233, 233);
+        cursor:pointer;
+        border: 0px;
+      }
+    </style>
+    <body>
+      <div id="parent_div">
+        <div id="main_div">
+          <p id="Heading">Login Form</p>
+          <form action="">
+          <div>
+            <div class="combo">
+              <label for="name">Name</label>
+              <input required id="name" type="text" placeholder="Enter your name" autofocus/>
+            </div>
+            <div class="combo">
+              <label for="number">Mobile No.</label>
+              <input  required type="text" id="number"placeholder="Enter your mobile no."minLength="10" />
+            </div>
+            <div class="combo">
+              <label for="email">Email Id</label>
+              <input required type="email" id="email"placeholder="Enter your email" />
+            </div>
+            <!-- <div class="c4">
+              <label for="gender" class="c">gender</label>
+              <div class="inner_div">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" />-->
+              
+              <div class="grid">
+                <label for="gender" class="c">Gender</label>
+                <div>
+                  <label for="male">Male</label>
+                  <input required type="radio" name="gender" id="male" />
+                  <label for="female">Female</label>
+                  <input  type="radio" name="gender" id="female" />
+                </div>
+              </div>
+             
+            </div>
+            <div class="combo">
+              <label for="date">DOB</label>
+              <input required type="date" id="date" />
+            </div>
+            <input required type="submit" class="btn" value="Log In">
+            </div> 
+           
+          <!-- <button class="btn" style="">Log In</button> -->
+        </div>
+    </form>
+      </div>
+    </body>
+  </head>
+</html>

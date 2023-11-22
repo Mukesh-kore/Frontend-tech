@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>From Demo</title>
+    <style>
+      #Heading {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      #parent_div {
+        display: grid;
+        justify-content: center;
+      }
+      #main_div {
+        height: 600px;
+        width: 380px;
+        border: 2px solid red;
+        text-align: center;
+        padding: 30px;
+        padding-top: 0px;
+      }
+      input {
+        width: 300px;
+      }
+      .inner_div{
+        display: flex;
+        border :2px solid red;
+        justify-content: space-around;
+      }
+      .inner_div > input{
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+    </style>
+    <body>
+      <div id="parent_div">
+        <div id="main_div">
+          <p id="Heading">Login Form</p>
+
+          <table>
+            <tr>
+              <td align="left"><label for="name">Name</label></td>
+              <td><input id="name" type="text" /></td>
+            </tr>
+            <tr>
+              <td align="left">
+                <label for="number">Mobile Number</label>
+              </td>
+              <td>
+                <input type="text" id="number" />
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <label for="email">Email Id</label>
+              </td>
+              <td>
+                <input type="email" id="email" />
+              </td>
+            </tr>
+            <tr>
+              <td align="left">
+                <label for="gender">gender</label>
+              </td>
+              <td>
+                <div class="inner_div">
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender"id="male" />
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender"id="female" />
+                </div>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Demo</title>
+    <style>
+      body {
+        margin: 0px;
+        height: 1000px;
+        padding-left: 100px;
+        padding-top: 100px;
+      }
+      header {
+        height: 100px;
+        background-color: black;
+        color: red;
+        margin: 0px;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        z-index: 20;
+      }
+      nav {
+        background-color: aquamarine;
+        width: 100px;
+        margin: 0;
+        position: fixed;
+        left: 0;
+        top: 100px;
+        bottom: 0;
+      }
+      p {
+        margin: 0px;
+      }
+      .divAll {
+        height: 200px;
+        width: 300px;
+        border: 2px solid red;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span style="vertical-align: center"> Header</span>
+    </header>
+    <nav>
+      <p>Navbar</p>
+    </nav>
+    <div>
+      <div class="divAll" style="position: relative">
+        <div
+          style="
+            position: absolute;
+            background-color: aqua;
+            right: 0;
+            top: 50%;
+            transform: translate(0%, -50%);
+          "
+        >
+          Position absolute
+        </div>
+      </div>
+    </div>
+    <div style="position: absolute; right: 0; bottom: 0">fixed</div>
+    <div class="divAll" style="transform: translate(0%,-1px);">
+        Position Sticky
+        <p> transform property</p>
+    <div style="position:sticky;top:100px;background-color: red;">Sticky</div>
+    </div>
+    <div class="divAll" style="border:0px;position:absolute;z-index:21;background-color: bisque;">
+        <p>Just Checking</p>
+    </div>
+    <div  style="position: fixed;z-index:100; top:0;color: rgb(196, 24, 24);">fixed randomly</div>
+  </body>
+</html>
